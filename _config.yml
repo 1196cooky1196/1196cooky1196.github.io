@@ -56,7 +56,7 @@ plugins:
 
 author:
   name   : "DongYoon Shin"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/my_picture.jpg"
   bio    : "M.S. Student at Yonsei University, major in Electrical & Electronic Engineering"
   links:
     - label: "GitHub"
