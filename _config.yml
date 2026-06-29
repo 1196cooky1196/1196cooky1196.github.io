@@ -56,12 +56,12 @@ plugins:
 author:
   name   : "DongYoon Shin"
   avatar : "/assets/images/my_picture.jpg"
-  bio    : "M.S. Student at Yonsei University, major in Electrical & Electronic Engineering"
+  bio    : "Incoming M.S. student in Electrical and Electronic Engineering at Yonsei University."
   location: "Seoul, South Korea"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "livewithoutconcern@gmail.com"
+      url: "mailto:livewithoutconcern@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/1196cooky1196"
@@ -73,7 +73,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "livewithoutconcern@gmail.com"
+      url: "mailto:livewithoutconcern@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/1196cooky1196"
