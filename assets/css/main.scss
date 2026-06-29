@@ -1,0 +1,22 @@
+---
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/default";
+@import "minimal-mistakes";
+
+/* Keep author profile photo fully visible without hover */
+.author__avatar,
+.author__avatar a,
+.author__avatar img {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+.author__avatar:hover,
+.author__avatar a:hover,
+.author__avatar img:hover {
+  opacity: 1 !important;
+  filter: none !important;
+}
