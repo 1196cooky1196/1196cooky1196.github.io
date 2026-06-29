@@ -16,8 +16,7 @@
 title: "DongYoon Shin"
 email: "livewithoutconcern@gmail.com"
 description: "Incoming M.S. Student at Yonsei University"
-twitter_username: username
-github_username: username
+github_username: 1196cooky1196
 minimal_mistakes_skin: default
 search: true
 
@@ -28,7 +27,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul
 
 include:
   - _pages
@@ -58,25 +57,29 @@ author:
   name   : "DongYoon Shin"
   avatar : "/assets/images/my_picture.jpg"
   bio    : "M.S. Student at Yonsei University, major in Electrical & Electronic Engineering"
+  location: "Seoul, South Korea"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "livewithoutconcern@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/1196cooky1196"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/1196cooky1196"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "livewithoutconcern@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/1196cooky1196"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/1196cooky1196"
 
 defaults:
   # _posts
