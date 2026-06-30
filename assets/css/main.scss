@@ -86,3 +86,88 @@
     font-size: 1.05em;
   }
 }
+
+/* Research interests */
+.research-intro {
+  max-width: 52rem;
+  margin: 0 0 1.5rem;
+  color: $muted-text-color;
+  font-size: 1.05em;
+  line-height: 1.7;
+}
+
+.research-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.research-card {
+  display: grid;
+  grid-template-columns: minmax(15rem, 0.9fr) minmax(0, 1.25fr);
+  overflow: hidden;
+  border: 1px solid $border-color;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.05);
+}
+
+.research-image {
+  width: 100%;
+  height: 100%;
+  min-height: 14rem;
+  object-fit: cover;
+}
+
+.research-image--quantum {
+  object-position: center;
+}
+
+.research-content {
+  align-self: center;
+  padding: 1.25rem 1.4rem;
+}
+
+.research-content h2 {
+  margin: 0 0 0.65rem;
+  font-size: 1.3em;
+  line-height: 1.35;
+}
+
+.research-content > p:not(.research-keywords) {
+  margin: 0;
+  line-height: 1.65;
+}
+
+.research-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 1rem 0 0;
+}
+
+.research-keywords span {
+  display: inline-block;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  background: mix(#fff, $primary-color, 90%);
+  color: mix(#000, $primary-color, 35%);
+  font-size: 0.78em;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+@media (max-width: 800px) {
+  .research-card {
+    grid-template-columns: 1fr;
+  }
+
+  .research-image {
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 16 / 9;
+  }
+
+  .research-content {
+    padding: 1rem 1.1rem 1.2rem;
+  }
+}
