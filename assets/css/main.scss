@@ -20,3 +20,69 @@
   opacity: 1 !important;
   filter: none !important;
 }
+
+/* Education timeline */
+.education-list {
+  margin-top: 1.25rem;
+}
+
+.education-entry {
+  position: relative;
+  margin-left: 0.35rem;
+  padding: 0 0 1.75rem 1.35rem;
+  border-left: 2px solid $border-color;
+}
+
+.education-entry:last-child {
+  padding-bottom: 0;
+}
+
+.education-entry::before {
+  content: "";
+  position: absolute;
+  top: 0.35rem;
+  left: -0.38rem;
+  width: 0.65rem;
+  height: 0.65rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: $primary-color;
+  box-shadow: 0 0 0 1px $border-color;
+}
+
+.education-entry h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.15em;
+  line-height: 1.35;
+}
+
+.education-entry p {
+  margin: 0 0 0.3rem;
+  line-height: 1.55;
+}
+
+.education-period {
+  color: $muted-text-color;
+  font-size: 0.82em;
+  font-variant-numeric: tabular-nums;
+}
+
+.education-degree {
+  font-weight: 600;
+}
+
+.education-location,
+.education-advisor {
+  color: $muted-text-color;
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  .education-entry {
+    padding-left: 1rem;
+  }
+
+  .education-entry h3 {
+    font-size: 1.05em;
+  }
+}
