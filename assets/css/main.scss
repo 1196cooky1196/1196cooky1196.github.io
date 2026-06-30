@@ -90,47 +90,43 @@
 /* Research interests */
 .research-intro {
   max-width: 52rem;
-  margin: 0 0 1.5rem;
+  margin: 0 0 2rem;
   color: $muted-text-color;
-  font-size: 1.05em;
-  line-height: 1.7;
+  font-size: 1em;
+  line-height: 1.6;
 }
 
 .research-list {
   display: grid;
-  gap: 1.5rem;
+  gap: 2.5rem;
 }
 
 .research-card {
-  display: grid;
-  grid-template-columns: minmax(15rem, 0.9fr) minmax(0, 1.25fr);
-  overflow: hidden;
-  border: 1px solid $border-color;
-  border-radius: 0.5rem;
-  background: #fff;
-  box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.05);
+  padding-bottom: 2.25rem;
+  border-bottom: 1px solid $border-color;
+}
+
+.research-card:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.research-card > h2 {
+  margin: 0 0 0.85rem;
+  font-size: 1.35em;
+  line-height: 1.35;
 }
 
 .research-image {
+  display: block;
   width: 100%;
-  height: 100%;
-  min-height: 14rem;
-  object-fit: cover;
-}
-
-.research-image--quantum {
-  object-position: center;
+  height: auto;
+  border: 1px solid $border-color;
+  border-radius: 0.4rem;
 }
 
 .research-content {
-  align-self: center;
-  padding: 1.25rem 1.4rem;
-}
-
-.research-content h2 {
-  margin: 0 0 0.65rem;
-  font-size: 1.3em;
-  line-height: 1.35;
+  padding-top: 1rem;
 }
 
 .research-content > p:not(.research-keywords) {
@@ -157,17 +153,15 @@
 }
 
 @media (max-width: 800px) {
+  .research-list {
+    gap: 2rem;
+  }
+
   .research-card {
-    grid-template-columns: 1fr;
+    padding-bottom: 1.75rem;
   }
 
-  .research-image {
-    height: auto;
-    min-height: 0;
-    aspect-ratio: 16 / 9;
-  }
-
-  .research-content {
-    padding: 1rem 1.1rem 1.2rem;
+  .research-card > h2 {
+    font-size: 1.2em;
   }
 }
