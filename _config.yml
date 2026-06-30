@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "DongYoon Shin"
-email: "livewithoutconcern@gmail.com"
+email: "livewithconcern@gmail.com"
 description: "Incoming M.S. Student at Yonsei University"
 github_username: 1196cooky1196
 minimal_mistakes_skin: default
@@ -61,7 +61,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:livewithoutconcern@gmail.com"
+      url: "mailto:livewithconcern@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/1196cooky1196"
@@ -73,7 +73,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:livewithoutconcern@gmail.com"
+      url: "mailto:livewithconcern@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/1196cooky1196"
